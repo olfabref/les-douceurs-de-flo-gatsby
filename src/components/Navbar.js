@@ -1,19 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import github from '../img/github-icon.svg'
-//import logo from '../img/logo.svg'
+import Logo from "./Logo";
 
 const Navbar = () => (
   <nav className="navbar is-dark is-bold">
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
-            {/*<figure className="image">
-            <img src={logo} alt="Les Douceurs de Flo" style={{ width: '88px' }} />
-          </figure>*/}
-          <span className="has-text-weight-bold">Les <span className="has-text-pink-hot">Douceurs</span> de <span
-                className="has-text-pink-hot">Flo</span></span>
+          <Logo />
         </Link>
       </div>
       <div className="navbar-start">
