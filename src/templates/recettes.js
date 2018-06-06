@@ -31,7 +31,6 @@ RecettesTemplate.propTypes = {
 
 class Recettes extends React.Component {
     componentDidMount() {
-        bulmaCarousel.attach();
     }
     constructor(props) {
         super(props);
