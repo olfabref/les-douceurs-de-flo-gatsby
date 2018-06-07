@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "Olivier Fabre",
   "dependencies": {
-    "bulma": "^0.7.1",
     "gatsby": "^1.9.213",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-netlify": "^1.0.19",
@@ -21,6 +20,7 @@
     "netlify-cms": "^1.7.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-bulma-components": "1.4.5",
     "react-helmet": "^5.2.0",
     "react-slick": "^0.23.1",
     "slick-carousel": "^1.8.1",
